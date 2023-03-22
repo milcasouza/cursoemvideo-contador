@@ -23,11 +23,11 @@ function verificar() {
         // c += p o contador vai receber ele mesmo + passo (incremento)
         if (i < f) {
             for (let c = i; c <= f; c += p) {
-                res.innerHTML += `${c} \u{1F449}`
+                res.innerHTML += `${c} \u{1F449} `
             }
         } else {
             for (let c = i; c >= f; c -= p) {
-                res.innerHTML += `${c} \u{1F449}`
+                res.innerHTML += `${c} \u{1F449} `
             }
         }
         res.innerHTML += `\u{1F3C1}`

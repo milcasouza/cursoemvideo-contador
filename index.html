@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contador</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,25 +14,25 @@
 
     <section>
         <div id="dados">
-            <p>Início:
-                <input type="number" name="inicio" id="txtinicial">
-            </p>
-            <p>Final:
-                <input type="number" name="final" id="txtfinal">
-            </p>
-            <p>Passo:
-                <input type="number" name="passo" id="txtpasso">
-            </p>
-            <p>
-                <input type="button" value="Verificar" onclick="verificar()">
-            </p>
+            <p class="title">Início:</p>
+            <p><input type="number" name="inicio" id="txtinicial"></p>
+            
+            <p class="title">Final:</p>
+            <p><input type="number" name="final" id="txtfinal"></p>
+            
+            <p class="title">Passo:</p>
+            <p><input type="number" name="passo" id="txtpasso"></p>
+
+            <div class="button-div">
+                <input class="button" type="button" value="Verificar" onclick="verificar()">
+            </div>
         </div>
         <div id="res">
             Contagem...
         </div>
     </section>
     <footer>
-        <p>&copy; Milca Souza com Curso em Vídeo</p>
+        <p>&copy; Milca Souza com Curso em Vídeo.</p>
     </footer>
     <script src="script.js"></script>
 </body>

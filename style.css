@@ -1,34 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
 :root {
     --textintern: #FFFFFF;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #043353;
+    background-color: #353755;
     color: var(--textintern);
-    font: normal 15pt Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 section {
     background-color: #FFFFFF;
-    color: #000000;
+    color: #0F0F0F;
     border-radius: 10px;
     padding: 15px;
-    margin: auto;
+    margin-bottom: 15px;
     width: 550px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.322)
 }
 
-img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+#dados .title {
+    margin-top: 10px;
+}
+
+.button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #353755;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button:hover {
+    background-color: #454761;
+}
+
+#txtinicial,
+#txtfinal,
+#txtpasso {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #E7E7E7;
+    border: 0;
+    outline: none;
 }
 
 footer {
     text-align: center;
-    font: italic 12pt Arial;
 }
